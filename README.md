@@ -23,3 +23,11 @@ you can see the rostopics below:
 /vrep/image
 /vrep/laser_switch
 /vrep/scan
+
+## task2: control the robot with keyboard
+rosmake rosmake key_teleop
+open another terminal
+`rosrun key_teleop key_teleop.py`
+
+## task1: Build 2D grid map with laserscan data and show it via rviz
+
