@@ -16,8 +16,10 @@ roscore
 cd ~/V-REP  
 ./vrep.sh  
 ```
-**open scene "env.ttt" and press START button, open another ternimal**
-`rostopic list`  
+**open scene "env.ttt" and press START button, open another ternimal**  
+```
+rostopic list  
+```  
 **you can see the rostopics below:**  
 /rosout  
 /rosout_agg  
@@ -29,9 +31,13 @@ cd ~/V-REP
 /vrep/scan
 ## task2: control the robot with keyboard
 we build a ros package named "key_teleop"  
-`rosmake key_teleop`  
+```
+rosmake key_teleop  
+```
 **open another terminal**  
-`rosrun key_teleop key_teleop.py`  
+```
+rosrun key_teleop key_teleop.py  
+```
 **"Key_teleop" is a node that will public message "geometry_msgs/Twist" to topic "/vrep/cmd_vel"**
 ## task1: Build 2D grid map with laserscan data and show it via rviz
 We use hector slam to build the 2D grid map  
