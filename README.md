@@ -10,23 +10,19 @@ steps:
 + `https://www.coppeliarobotics.com/files/V-REP_PRO_V3_6_2_Ubuntu16_04.tar.xz`
 + `tar xf V-REP_PRO_V3_6_2_Ubuntu16_04.tar.xz`
 + `mv V-REP_PRO_V3_6_2_Ubuntu16_04 V-REP`
-+ `roscore`
-+ **open another terminal**
++ `roscore`  
+**open another terminal**
 + `cd ~/V-REP`
-+ `./vrep.sh`
-+ **open scene "env.ttt" and press START button, open another ternimal**
-+ `rostopic list`
-+ **you can see the rostopics below:** /rosout   /rosout_agg   /tf   /vrep/camera_switch   /vrep/cmd_vel   /vrep/image   /vrep/laser_switch    /vrep/scan
++ `./vrep.sh`  
+**open scene "env.ttt" and press START button, open another ternimal**
++ `rostopic list`  
+**you can see the rostopics below:** /rosout   /rosout_agg   /tf   /vrep/camera_switch   /vrep/cmd_vel   /vrep/image   /vrep/laser_switch    /vrep/scan
 
 ## task2: control the robot with keyboard
 we build a ros package named "key_teleop"
-
-`rosmake key_teleop`
-
-open another terminal
-
-`rosrun key_teleop key_teleop.py`
-
-"Key_teleop" is a node that will public message "geometry_msgs/Twist" to topic "/vrep/cmd_vel"
++ `rosmake key_teleop`  
+**open another terminal**
++ `rosrun key_teleop key_teleop.py`  
+**"Key_teleop" is a node that will public message "geometry_msgs/Twist" to topic "/vrep/cmd_vel"**
 ## task1: Build 2D grid map with laserscan data and show it via rviz
 
