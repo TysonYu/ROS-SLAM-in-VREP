@@ -1,10 +1,8 @@
 # ELCE5670_Final_Project
 This is the final project for ELCE5670
 ## install ROS and V-REP
-ROS version: [Kinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu)
-
-V-REP version: [V-REP_PRO_V3_6_2_Ubuntu16_04](https://www.coppeliarobotics.com/files/V-REP_PRO_V3_6_2_Ubuntu16_04.tar.xz)
-
+ROS version: [Kinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu)  
+V-REP version: [V-REP_PRO_V3_6_2_Ubuntu16_04](https://www.coppeliarobotics.com/files/V-REP_PRO_V3_6_2_Ubuntu16_04.tar.xz)  
 steps:
 + `cd ~`
 + `https://www.coppeliarobotics.com/files/V-REP_PRO_V3_6_2_Ubuntu16_04.tar.xz`
