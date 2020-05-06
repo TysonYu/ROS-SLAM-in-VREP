@@ -42,5 +42,11 @@ rosrun key_teleop key_teleop.py
 
 ## task1: Build 2D grid map with laserscan data and show it via rviz
 We use hector slam to build the 2D grid map  
-`sudo apt-get install ros-kinetic-hector-slam`  
-
+```
+sudo apt-get install ros-kinetic-hector-slam  
+```
+open another terminal  
+```
+roslaunch hector_slam_mapping.launch  
+```
+By moving the robot with  keyboard, hector_slam will build the grid map.
