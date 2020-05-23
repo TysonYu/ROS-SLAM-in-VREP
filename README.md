@@ -1,6 +1,6 @@
 # ROS SLAM in V-REP
 DO SLAM based on ROS in V-REP environment
-[![Watch the video](https://img.youtube.com/vi/l-TuIQq4o6I/maxresdefault.jpg)](https://youtu.be/l-TuIQq4o6I)
+https://youtu.be/l-TuIQq4o6I
 ## install ROS and V-REP
 ROS version: [Kinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu)  
 V-REP version: [V-REP_PRO_V3_6_2_Ubuntu16_04](https://www.coppeliarobotics.com/files/V-REP_PRO_V3_6_2_Ubuntu16_04.tar.xz)  
