@@ -50,4 +50,32 @@ open another terminal
 ```
 roslaunch hector_slam_mapping.launch  
 ```
-By moving the robot with  keyboard, hector_slam will build the grid map.
+By moving the robot with  keyboard, hector_slam will build the grid map.  
+## task3: Image Recognition and localization.  
+```
+rosmake opencv_detector
+```
+move to the "opencv_detector/launch" folder  
+```
+roslaunch facedetector.launch  
+```
+move to the "src" folder  
+```
+rosmake image_marker  
+rosrun image_marker image_marker  
+```
+## task 4: Visual Servoing
+```
+rosmake visual_servo  
+rosrun visual_servo follow_ball  
+```
+## task 5: let the robot judge which area it locates  
+```
+rosmake loaction_judge  
+rosrun location_judge location_judge  
+```
+## task6: Write a launch file to roslaunch all of above programs at once
+```
+roslaunch launch_all.launch  
+```
+You can launch all nodes at once
